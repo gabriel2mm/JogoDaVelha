@@ -23,7 +23,7 @@ public class Humano extends Jogador{
                 tentativa[0] = entrada.nextInt();
                 
                 if( tentativa[0] > 3 ||tentativa[0] < 1)
-                    System.out.println("Linha inv"+Character.toString ((char) 225)+"lida. É 1, 2 ou 3");
+                    System.out.println("Linha inv"+Character.toString ((char) 225)+"lida. "+Character.toString ((char) 201)+" 1, 2 ou 3");
                 
             }while( tentativa[0] > 3 ||tentativa[0] < 1);
             
@@ -32,7 +32,7 @@ public class Humano extends Jogador{
                 tentativa[1] = entrada.nextInt();
                 
                 if(tentativa[1] > 3 ||tentativa[1] < 1)
-                    System.out.println("Coluna inv"+Character.toString ((char) 225)+"lida. É 1, 2 ou 3");
+                    System.out.println("Coluna inv"+Character.toString ((char) 225)+"lida. "+Character.toString ((char) 201)+" 1, 2 ou 3");
                 
             }while(tentativa[1] > 3 ||tentativa[1] < 1);
             
