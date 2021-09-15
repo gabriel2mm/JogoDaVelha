@@ -1,0 +1,7 @@
+ <javac destdir="${classes.dir}" classpathref="production-classpath" debug="on"
+     includeantruntime="false" source="${java.level}" target="${java.level}"
+
+     encoding="iso-8859-1">
+
+     <src path="${production.dir}" />
+ </javac>
