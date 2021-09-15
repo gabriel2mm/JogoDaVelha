@@ -38,11 +38,11 @@ public class Jogo {
         do{
             System.out.println("1. Humano");
             System.out.println("2. Computador\n");
-            System.out.print("Opção: ");
+            System.out.print("Op"+Character.toString ((char) 231)+ Character.toString ((char) 227) + "o: ");
             opcao = entrada.nextInt();
             
             if(opcao != 1 && opcao != 2)
-                System.out.println("Opção inválida! Tente novamente");
+                System.out.println("Op"+Character.toString ((char) 231)+ Character.toString ((char) 227) + "o inv"+Character.toString ((char) 225)+"lida! Tente novamente");
         }while(opcao != 1 && opcao != 2);
         
         return opcao;
@@ -52,7 +52,7 @@ public class Jogo {
         if(ganhou() == 0 ){
             System.out.println("----------------------");
             System.out.println("\nRodada "+rodada);
-            System.out.println("É a vez do jogador " + vez() );
+            System.out.println(Character.toString ((char) 201) +" a vez do jogador " + vez() );
             
             if(vez()==1)
                 jogador1.jogar(tabuleiro);
